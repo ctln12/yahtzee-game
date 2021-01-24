@@ -9,6 +9,7 @@ class Dice extends Component {
         <Die handleClick={this.props.handleClick}
           val={d}
           locked={this.props.locked[idx]}
+          disabled={this.props.disabled}
           idx={idx}
           key={idx} />
       )}
