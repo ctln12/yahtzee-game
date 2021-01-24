@@ -15,7 +15,7 @@ class Die extends Component {
   }
   render() {
     const {val, locked, numberWords, disabled, rolling} = this.props;
-    let classes = `Die fas fa-dice-${numberWords[val - 1]} fa-5x ` ;
+    let classes = `Die fas fa-dice-${numberWords[val - 1]} fa-4x ` ;
     if (locked) { classes += "Die-locked" }
     if (rolling) { classes += "Die-rolling" }
     return <i className={classes} onClick={this.toggleDie} disabled={disabled}></i>;

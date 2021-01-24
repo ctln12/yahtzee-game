@@ -1,5 +1,5 @@
 .Game {
-  width: 40%;
+  width: 35%;
   background: white;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.1);
   margin: 0 30%;
@@ -28,7 +28,7 @@ h2 {
 }
 
 .Game-reroll {
-  font-size: 2em;
+  font-size: 1.5em;
   color: white;
   font-weight: 100;
   transition: 0.5s;
