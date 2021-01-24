@@ -18,27 +18,29 @@ This project aims to fix some problems from a starter code of a Yahtzee game.
 
 The tasks to complete are the following:
 
-1- Fix clicking dice: click dice to toggle whether or not they’re going to be re-rolled
+1. Fix clicking dice: click dice to toggle lock whether or not they’re going to be re-rolled
 
-2- Add missing rules: complete the evaluation rules for
-  - a full house:  3 of one die and 2 of another should always score 25
-  - a small straight: four dice in a row (1-2-3-4 or 2-3-4-5, for example) should always score 30
+2. Add missing rules: complete the evaluation rules for
+    - a full house:  3 of one die and 2 of another should always score 25
+    - a small straight: four dice in a row (1-2-3-4 or 2-3-4-5, for example) should always score 30
 
-3- Prevent rolling more than 3 times
+3. Prevent rolling more than 3 times
 
-4- Disallow re-using a score line
+4. Disable clicking on a score line once used
 
-5- Add descriptions:
-  - one for each rule to explain how it’s scored and display it before the user clicks on a rule
-  - once the user clicks a row, hide the description and instead display the score value
+5. Add descriptions:
+    - one for each rule to explain how it’s scored and display it before the user clicks on a rule
+    - once the user clicks a row, hide the description and instead display the score value
 
-6- Add icons: rewrite the code to use font-awesome die icons
+6. Add icons: rewrite the code to use font-awesome dice icons
 
-7- Animate the dice:
-  - make the dice shake or spin when they are being rolled
-  - make the dice unclickable while the animation is going on
+7. Animate the dice:
+    - make the dice shake or spin when they are being rolled
+    - make the dice unclickable while the animation is going on
 
-8- Show the total score
+8. Show the total score
+
+9. Make the game start with the dice already rolled or rolling
 
 It displays an interface that looks like this:
 
@@ -47,7 +49,6 @@ It displays an interface that looks like this:
 React-specific optionals:
 
 - Prevent assigning the same dice to more than one score line
-- Make the game start with the dice already rolled
 - Add code to detect when the game is over, and add a “play again?” feature that resets the game
 - Use an add-on library for “styled components” to move CSS out of .css files and into component definitions
 
@@ -56,7 +57,7 @@ Non-React-specific optionals:
 - Improve the style and the dice animation
 - Add a new scoring category for dice that would not match any of the other rules
 - Use localStorage to keep track of this highest score so that it is displayed below the scoring area.
-- Implement more complex scoring [rules](https://en.wikipedia.org/wiki/Yahtzee#Yahtzee_bonuses_and_Joker_rules)
+- Implement [more complex scoring rules](https://en.wikipedia.org/wiki/Yahtzee#Yahtzee_bonuses_and_Joker_rules)
 
 ### Technologies
 
@@ -68,7 +69,7 @@ Non-React-specific optionals:
 
 * Roll dice maximum twice
 
-* Select dice not to be rolled
+* Lock dice so they can't be rolled
 
 * Display description for each rule
 
@@ -78,7 +79,7 @@ Non-React-specific optionals:
 
 ### Poject status
 
-The project is just started.
+The project is done.
 
 ### Credits & Sources
 
